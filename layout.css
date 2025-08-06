@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    height: 150px;
+    background-color: orange;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+article,aside{
+    /* có thể sử dụng flex box để thay thế */
+    float: left;  
+}
+article{
+    width: 70%;
+    height: 300px;
+    background-color: greenyellow;
+}
+aside{
+    width:30%;
+    height: 300px;
+    background-color: red;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.clear{
+    clear: both;
+}
+
+.clean{
+    font-size: 15px;
+}
